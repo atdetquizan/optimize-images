@@ -1,0 +1,17 @@
+{
+  "name": "optimize-images",
+  "version": "0.0.1",
+  "description": "Optimización de imagenes con gulp",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "atdetquizan",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp-imagemin": "^7.1.0"
+  }
+}
