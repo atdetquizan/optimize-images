@@ -4,7 +4,8 @@
   "description": "Optimización de imagenes con gulp",
   "main": "index.js",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "download": "node download.js"
   },
   "author": "atdetquizan",
   "license": "ISC",
@@ -12,6 +13,7 @@
     "gulp": "^4.0.2"
   },
   "devDependencies": {
-    "gulp-imagemin": "^7.1.0"
+    "gulp-imagemin": "^7.1.0",
+    "request": "^2.88.2"
   }
 }
